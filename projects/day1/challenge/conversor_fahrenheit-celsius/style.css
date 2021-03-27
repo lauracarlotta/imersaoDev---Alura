@@ -1,0 +1,85 @@
+body{
+    background-color: #0b1e3f;
+    background-image: url(https://i.pinimg.com/originals/36/57/bb/3657bb8852d123805db3daae7a025cb3.jpg) ;
+    background-size: 100vh;
+    background-position: center top;
+    background-repeat: no-repeat;
+    min-width: 480px;
+    margin: auto;
+}
+
+.container {
+    margin: auto;
+    width: 600px;
+}
+
+h1, 
+h2 {
+    text-align: center;
+}
+
+h1 {
+    background-color: #0b1e3f;
+    color: #fada06;
+    font-family: 'Lobster', cursive;
+    font-size: 2.3em;
+    padding: 4px 100px;
+}
+
+h2 {
+    padding-bottom: 60px;
+}
+
+p, 
+li, 
+span, 
+.temperature-value {
+    color: #fff;
+    font-size: 1em;
+    text-align: center;
+}
+
+.page-logo {
+    display: block;
+    margin-left: 20px;
+    width: 200px;
+}
+
+.alura-logo {
+    position: absolute;
+    top: 0px;
+    right: 20px;
+}
+
+a {
+    color: #fff;
+    font-style: italic;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+a:hover {
+    font-size: 1.2em;
+}
+
+li {
+    display: inline-block;
+    margin: auto;
+    
+}
+
+.celsius-fahrenheit-section {
+    float: left;
+}
+
+.fahrenheit-celsius-section {
+    float: right;
+}
+
+input {
+    margin: 10px 20px;
+}
+
+.temperature-value {
+    margin: 50px;
+}
