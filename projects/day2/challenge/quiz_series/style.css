@@ -1,0 +1,119 @@
+body {
+    background-image: url(https://wallpaperaccess.com/full/1087736.jpg);
+    background-size: 100vw 100vh;
+    color: #fff;
+    font-family: 'Roboto Mono',monospace;
+}
+
+.container {
+    margin: auto;
+    width: 800px;
+}
+
+.quiz {
+    background-color: #000;
+    height: 98vh;
+    border-radius: 50px;
+    margin: 5px 0;
+    padding: 10px 30px;
+    text-align: center;
+}
+
+.imersao-logo {
+    float: left;
+}
+
+.quiz-logo {
+    width: 200px;
+    height: 100px;
+    float: right;
+}
+
+.second-title {
+    margin: 20px;
+    padding: 5px 0 10px;
+    text-align: left;
+}
+
+.know-movies {
+    font-size: 24px;
+}
+
+.test-movie {
+    font-size: 20px;
+}
+
+.movie-image {
+    width: 350px;
+    height: 250px;
+    float:right;
+}
+
+.quiz-question {
+    background-color: #fff;
+    color: #000;
+    border-radius: 10px;
+    padding: 10px;
+    float: left;
+    font-weight: bolder;
+    font-style: italic;
+    width: 350px;
+}
+
+.alternatives {
+    width: 300px;
+    text-align: left;
+    color: #000;
+    margin: 10px 10px 50px;
+    border-radius: 10px;
+}
+
+.answer {
+    background-color: #fff;
+    padding: 10px;
+    width: 300px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.answer-question,
+.next-question {
+    margin: 0 50px;
+    font-weight: bolder;
+    font-size: 20px;
+    background-color: #04DD00;
+    transition: all 0.4s ease-in-out ;
+}
+
+.answer-question:hover,
+.next-question:hover {
+    box-shadow: 2px 2px 6px #fff;
+    transform: scale(1.3);
+    
+}
+
+.answer-question:active,
+.next-question:active {
+    box-shadow: inset 2px 2px 3px #014F00;
+    color: #ff0000;
+}
+
+.answer-question {
+    float: left;
+}
+
+.next-question {
+    float: right;
+}
+
+a {
+    text-decoration: none;
+}
+
+.try-again {
+    color: #ff0000;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    font-style: italic;
+}
