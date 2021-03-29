@@ -1,5 +1,5 @@
 body {
-    background-image: url(https://wallpaperaccess.com/full/1087736.jpg);
+    background-image: url(https://cdn.pixabay.com/photo/2020/07/02/04/31/matrix-5361690_960_720.png);
     background-size: 100vw 100vh;
     color: #fff;
     font-family: 'Roboto Mono',monospace;
@@ -12,7 +12,7 @@ body {
 
 .quiz {
     background-color: #000;
-    height: 98vh;
+    height: 100vh;
     border-radius: 50px;
     margin: 5px 0;
     padding: 10px 30px;
@@ -117,3 +117,11 @@ a {
     font-weight: bolder;
     font-style: italic;
 }
+
+/* https://observatoriodeseries.uol.com.br/wp-content/uploads/2019/07/cropped-4151717.jpg
+
+https://sm.mashable.com/mashable_sea/photo/default/money-heist_3hk8.jpg
+
+https://wallpaperaccess.com/full/1087736.jpg
+
+https://observatoriodeseries.uol.com.br/wp-content/uploads/2019/07/cropped-4151717.jpg */

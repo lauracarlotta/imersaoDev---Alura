@@ -1,8 +1,5 @@
 /* The Godfather */
 
-let answerButtonTheGodfather = document.querySelector(".answer-question-the-godfather");
-let tryAgainTheGodfather = document.querySelector(".try-again-the-godfather");
-
 function answerCorrectTheGodfather() {
 
     let correctAlternativeGodfather = Number(prompt("Qual é a alternativa correta?"));
@@ -16,12 +13,14 @@ function answerCorrectTheGodfather() {
 
 }
 
+let answerButtonTheGodfather = document.querySelector(".answer-question-the-godfather");
+let tryAgainTheGodfather = document.querySelector(".try-again-the-godfather");
+
 answerButtonTheGodfather.onclick = answerCorrectTheGodfather;
 
-/* Matrix */
 
-let answerButtonMatrix = document.querySelector(".answer-question-matrix");
-let tryAgainMatrix = document.querySelector(".try-again-matrix");
+
+/* Matrix */
 
 function answerCorrectMatrix() {
 
@@ -36,28 +35,50 @@ function answerCorrectMatrix() {
 
 }
 
+let answerButtonMatrix = document.querySelector(".answer-question-matrix");
+let tryAgainMatrix = document.querySelector(".try-again-matrix");
+
 answerButtonMatrix.onclick = answerCorrectMatrix;
 
 /* Forest Gump */
 
-/* let answerButtonMatrix = document.querySelector(".answer-question-matrix");
-let tryAgainMatrix = document.querySelector(".try-again-matrix");
+function answerCorrecForestGump() {
 
-function answerCorrectMatrix() {
+    let correctAlternativeForestGump = Number(prompt("Qual é a alternativa correta?"));
 
-    let correctAlternativeMatrix = Number(prompt("Qual é a alternativa correta?"));
-
-    if(correctAlternativeMatrix == 1) {
-        document.querySelector(".answer-correct-matrix").style.backgroundColor = "green";
+    if(correctAlternativeForestGump == 1) {
+        document.querySelector(".answer-correct-forest-gump").style.backgroundColor = "green";
         tryAgainMatrix.innerHTML = "";
     } else {
-        tryAgainMatrix.innerHTML = "Tente Novamente!";
+        tryAgainForestGump.innerHTML = "Tente Novamente!";
     }
 
-} */
+}
+
+let answerForestGump = document.querySelector(".answer-question-forest-gump");
+let tryAgainForestGump = document.querySelector(".try-again-forest-gump");
+
+answerForestGump.onclick = answerCorrecForestGump;
 
 /* Batman Dark Knight */
 
+function answerCorrecForestGump() {
+
+    let correctAlternativeForestGump = Number(prompt("Qual é a alternativa correta?"));
+
+    if(correctAlternativeForestGump == 1) {
+        document.querySelector(".answer-correct-forest-gump").style.backgroundColor = "green";
+        tryAgainMatrix.innerHTML = "";
+    } else {
+        tryAgainForestGump.innerHTML = "Tente Novamente!";
+    }
+
+}
+
+let answerForestGump = document.querySelector(".answer-question-forest-gump");
+let tryAgainForestGump = document.querySelector(".try-again-forest-gump");
+
+answerForestGump.onclick = answerCorrecForestGump;
 
 /* The Shining */
 
@@ -66,3 +87,21 @@ function answerCorrectMatrix() {
 
 
 /* Pulp Fiction */
+
+/* função para mudar o fundo dá página 
+
+function changeBackground() {
+
+    for(let indice = 1; indice < imagesBackground.length; indice++) {
+
+        document.querySelector("body").style.backgroundImage = imagesBackground[indice];
+    }
+}
+
+let imagesBackground = ["https://observatoriodeseries.uol.com.br/wp-content/uploads/2019/07/cropped-4151717.jpg", "https://sm.mashable.com/mashable_sea/photo/default/money-heist_3hk8.jpg", "https://wallpaperaccess.com/full/1087736.jpg", "https://observatoriodeseries.uol.com.br/wp-content/uploads/2019/07/cropped-4151717.jpg"];
+
+let nextQuestionButton = document.getElementsByTagName("a");
+
+nextQuestionButton.onclick = changeBackground;
+
+*/
