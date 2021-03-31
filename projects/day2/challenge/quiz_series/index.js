@@ -20,6 +20,7 @@ answerButtonTheGodfather.onclick = answerCorrectTheGodfather;
 
 
 
+
 /* Matrix */
 
 function answerCorrectMatrix() {
@@ -40,6 +41,9 @@ let tryAgainMatrix = document.querySelector(".try-again-matrix");
 
 answerButtonMatrix.onclick = answerCorrectMatrix;
 
+
+
+
 /* Forest Gump */
 
 function answerCorrecForestGump() {
@@ -48,7 +52,7 @@ function answerCorrecForestGump() {
 
     if(correctAlternativeForestGump == 1) {
         document.querySelector(".answer-correct-forest-gump").style.backgroundColor = "green";
-        tryAgainMatrix.innerHTML = "";
+        tryAgainForestGump.innerHTML = "";
     } else {
         tryAgainForestGump.innerHTML = "Tente Novamente!";
     }
@@ -59,34 +63,100 @@ let answerForestGump = document.querySelector(".answer-question-forest-gump");
 let tryAgainForestGump = document.querySelector(".try-again-forest-gump");
 
 answerForestGump.onclick = answerCorrecForestGump;
+
+
+
 
 /* Batman Dark Knight */
 
-function answerCorrecForestGump() {
+function answerCorrectBatmanDarKnight() {
 
-    let correctAlternativeForestGump = Number(prompt("Qual é a alternativa correta?"));
+    let correctAlternativeBatmanDarKnight = Number(prompt("Qual é a alternativa correta?"));
 
-    if(correctAlternativeForestGump == 1) {
-        document.querySelector(".answer-correct-forest-gump").style.backgroundColor = "green";
-        tryAgainMatrix.innerHTML = "";
+    if(correctAlternativeBatmanDarKnight == 2) {
+        document.querySelector(".answer-correct-batman-dark-knight").style.backgroundColor = "green";
+        tryAgainBatmanDarKnight.innerHTML = "";
     } else {
-        tryAgainForestGump.innerHTML = "Tente Novamente!";
+        tryAgainBatmanDarKnight.innerHTML = "Tente Novamente!";
     }
 
 }
 
-let answerForestGump = document.querySelector(".answer-question-forest-gump");
-let tryAgainForestGump = document.querySelector(".try-again-forest-gump");
+let answerBatmanDarKnight = document.querySelector(".answer-question-batman-dark-knight");
+let tryAgainBatmanDarKnight = document.querySelector(".try-again-batman-dark-knight");
 
-answerForestGump.onclick = answerCorrecForestGump;
+answerBatmanDarKnight.onclick = answerCorrectBatmanDarKnight;
+
+
+
 
 /* The Shining */
+
+function answerCorrectTheShining() {
+
+    let correctAlternativeTheShining = Number(prompt("Qual é a alternativa correta?"));
+
+    if(correctAlternativeTheShining == 3) {
+        document.querySelector(".answer-correct-the-shining").style.backgroundColor = "green";
+        tryAgainTheShining.innerHTML = "";
+    } else {
+        tryAgainTheShining.innerHTML = "Tente Novamente!";
+    }
+
+}
+
+let answerTheShining = document.querySelector(".answer-question-the-shining");
+let tryAgainTheShining = document.querySelector(".try-again-the-shining");
+
+answerTheShining.onclick = answerCorrectTheShining;
+
+
 
 
 /* The Lord of The Rings */
 
+function answerCorrectTheLordOfTheRings() {
+
+    let correctAlternativeTheLordOfTheRings = Number(prompt("Qual é a alternativa correta?"));
+
+    if(correctAlternativeTheLordOfTheRings == 4) {
+        document.querySelector(".answer-correct-the-lord-of-the-rings").style.backgroundColor = "green";
+        tryAgainTheLordOfTheRings.innerHTML = "";
+    } else {
+        tryAgainTheLordOfTheRings.innerHTML = "Tente Novamente!";
+    }
+
+}
+
+let answerTheLordOfTheRings = document.querySelector(".answer-question-the-lord-of-the-rings");
+let tryAgainTheLordOfTheRings = document.querySelector(".try-again-the-lord-of-the-rings");
+
+answerTheLordOfTheRings.onclick = answerCorrectTheLordOfTheRings;
+
+
+
 
 /* Pulp Fiction */
+
+function answerCorrectPulpFiction() {
+
+    let correctAlternativePulpFiction = Number(prompt("Qual é a alternativa correta?"));
+
+    if(correctAlternativePulpFiction == 3) {
+        document.querySelector(".answer-correct-pulp-fiction").style.backgroundColor = "green";
+        tryAgainPulpFiction.innerHTML = "";
+    } else {
+        tryAgainPulpFiction.innerHTML = "Tente Novamente!";
+    }
+
+}
+
+let answerPulpFiction = document.querySelector(".answer-question-pulp-fiction");
+let tryAgainPulpFiction = document.querySelector(".try-again-pulp-fiction");
+
+answerPulpFiction.onclick = answerCorrectPulpFiction;
+
+
 
 /* função para mudar o fundo dá página 
 
