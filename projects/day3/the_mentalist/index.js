@@ -1,22 +1,30 @@
-let numeroSecreto = 3;
-let chute = parseFloat(Number(prompt("Chute um um número entre 0 e 10!")));
+let numeroSecreto = parseInt(Math.random() * 10);
+console.log(numeroSecreto);
+let totalTentativas = 3;
+let chute = 0;
 
-if (numeroSecreto == chute) {
+while (totalTentativas > 0) {
 
-    alert("Você acertou!");
-
-} else if (numeroSecreto > chute) {
-
-    console.log("O número secreto é maior!");
-    chute = parseFloat(Number(prompt("Chute um um número entre 0 e 10!")));
-    
-
-} else if (numeroSecreto < chute) {
-
-    console.log("O número secreto é menor!");
     chute = parseFloat(Number(prompt("Chute um um número entre 0 e 10!")));
 
-} else {
+    if (numeroSecreto == chute) {
+        
+        console.log("Você acertou!");
+        break;
 
-    alert("Não foi dessa vez...");
+    } else if (numeroSecreto > chute) {
+
+        console.log("O número secreto é maior!");
+        totalTentativas--;
+
+    } else if (numeroSecreto < chute) {
+
+        console.log("O número secreto é menor!");
+        totalTentativas--;
+    }
+}
+
+if (chute != numeroSecreto) {
+
+    console.log(`Suas tentativas acabaram! O número secreto era ${numeroSecreto}!`);
 }
