@@ -35,14 +35,23 @@ body {
     right:10px;
 }
 
-.answer {
+.answer-visible {
     background-color: #fff;
     border-radius: 10px;
     color: #000;
+    display: block;
     margin: 40vh auto 10px;
     padding: 0.5em;
-    height: 35px;
+    height: calc(0.5em + font + 0.5em);
     width: 300px;
+}
+
+.answer-none {
+    display: none;
+}
+
+big {
+    font-size: 1.6em;
 }
 
 @media (max-height: 500px) {
