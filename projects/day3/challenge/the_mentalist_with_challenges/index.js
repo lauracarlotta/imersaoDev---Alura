@@ -1,4 +1,4 @@
-alert("Você terá 3 chances valendo 5 pontos cada uma!");
+/* alert("Você terá 3 chances valendo 5 pontos cada uma!"); */
 
 let answerNumber = document.querySelector(".answer-none");
 let untilWhatNumber = Number(prompt("Você quer que o sorteio seja de 1 a que número? "));
