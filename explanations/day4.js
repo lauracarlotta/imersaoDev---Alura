@@ -4,7 +4,7 @@
 // .length (tamanho do array);
 // os índices nos array sempre começam de 0, ou seja, se o nosso array tiver 4 elementos, seu índice será de 0 a 3, ou seja, 0, 1, 2 e 3 = 4 elementos;
 
-let movies = ["Batman e o Ca valeiro das Trevas", "Matrix", "Interstellar"];
+let movies = ["Batman e o Cavaleiro das Trevas", "Matrix", "Interstellar"];
 //                  0           1           2
 movies.push("Forest Gump");
 //              3

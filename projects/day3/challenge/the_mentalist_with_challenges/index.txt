@@ -1,0 +1,2 @@
+- concertar funções;
+- melhorar código;
