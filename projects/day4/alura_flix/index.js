@@ -1,11 +1,15 @@
 let moviesListImage = [];
 let moviesListLink = [];
 let moviesListName = [];
+let btnSearchMovie = document.querySelector(".search-button");
+let btnAddMovie = document.querySelector(".add-button");
+let btnDeleteMovie = document.querySelector(".delete-button");
+let showMovies = document.querySelector(".show-movie");
 
 moviesListImage.push("https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_UX182_CR0,0,182,268_AL_.jpg");
 moviesListLink.push("https://www.imdb.com/title/tt0468569/?ref_=nv_sr_srsg_0");
 moviesListName.push("Batman e o Cavaleiro das Trevas");
- 
+
 moviesListImage.push("https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX182_CR0,0,182,268_AL_.jpg");
 moviesListLink.push("https://www.imdb.com/title/tt0133093/?ref_=nv_sr_srsg_2");
 moviesListName.push("Matrix");
@@ -39,7 +43,7 @@ console.log(moviesListLink);
 console.log(moviesListName);
 
 for (let i = 0; i < moviesListImage.length; i++) {
-    document.write(`<div class="show-movie"><a href="${moviesListLink[i]}" target="_blank"><img src = "${moviesListImage[i]}" title="${moviesListName[i]}"></a></div>`);
+    showMovies.innerHTML += `<div class="show-movie"><a href="${moviesListLink[i]}" target="_blank"><img src = "${moviesListImage[i]}" title="${moviesListName[i]}"></a></div>`;
 }
 
 /* let searchMovie = prompt(""); */
