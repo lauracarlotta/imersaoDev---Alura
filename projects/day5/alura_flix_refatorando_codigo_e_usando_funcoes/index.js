@@ -9,12 +9,12 @@ function addMovie() {
 
         // if(favoriteMovie.length[i] == `.jpg` || `.svg` || `.jpeg`) < funciona, porem não entra no else caso seja false
 
-        /* showOnWindowListMovies(favoriteMovie); */
+        showOnWindowListMovies(favoriteMovie);
 
-        let guardaNaMemoria = [];
+        /* let guardaNaMemoria = [];
         guardaNaMemoria.push(addMovie()); // verificar
 
-        console.log(guardaNaMemoria);
+        console.log(guardaNaMemoria); */
 
         /* document.write(`<img src="${inputAddFavoriteMovie}">`); ,- primeiro usamos o document.write para mostra na tela. */
     } else {

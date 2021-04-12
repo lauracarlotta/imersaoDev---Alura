@@ -1,9 +1,9 @@
 let moviesListImage = [];
 let moviesListLink = [];
 let moviesListName = [];
-let btnSearchMovie = document.querySelector(".search-button");
+/* let btnSearchMovie = document.querySelector(".search-button");
 let btnAddMovie = document.querySelector(".add-button");
-let btnDeleteMovie = document.querySelector(".delete-button");
+let btnDeleteMovie = document.querySelector(".delete-button"); */
 let showMovies = document.querySelector(".show-movie");
 
 moviesListImage.push("https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_UX182_CR0,0,182,268_AL_.jpg");
