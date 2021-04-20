@@ -1,0 +1,1 @@
+// como estou meio sem ideias, acho que um novo jogo com mais funcções de ataque e etc para aprimoraro que foi aprendido, pelos essa é a primeira idéia por hora

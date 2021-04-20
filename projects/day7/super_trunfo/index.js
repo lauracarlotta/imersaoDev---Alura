@@ -59,7 +59,7 @@ function sortearCarta() {
     
     let numeroCartaMaquina = Math.round(Math.random() * (Number(cartas.length)-1)); // Deixei uma anotação de como cheguei nesse valor do parenteses do multiplicador.
     cartaMaquinaSorteada = cartas[numeroCartaMaquina];
-    console.log(cartaMaquinaSorteada);
+    //console.log(cartaMaquinaSorteada);
 
     let numeroCartaJogador = Math.round(Math.random() * (Number(cartas.length)-1));
     while (numeroCartaJogador == numeroCartaMaquina) {
