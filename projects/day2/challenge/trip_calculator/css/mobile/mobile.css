@@ -1,30 +1,72 @@
-@media (max-width: 883px) {
-    nav {
-        height: 120px;
-    }
+body {
+    color: #000;
+    text-align: center;
+    min-width: 375px;
 }
 
-@media (max-width: 767px) {
-
-    li {
-        font-size: 1.2rem;
-    }
-
-    nav {
-        height: 60px;
-    }
-
-    .how-will-it-your-travel-group {
-        display: inline-block;
-    }
-
-    .how-will-it-your-travel {
-        display: none;
-    }
+.container {
+    margin: 0 auto;
+    width: 90vw;
 }
 
-@media (max-width: 600px) {
-    .who-are-we, .blog {
-        display: none;
-    }
+h1 {
+    font-size: 3rem;
+}
+
+.main-header {
+    margin-top: 10px;
+    width: 100vw;
+    height: 120px;
+    font-size: 3rem;
+    text-align: center;
+}
+
+nav {
+    top: 70px;
+    width: 100vw;
+    height: 60px;
+}
+
+ul {
+    margin: 0 auto;
+    display: inline-block;
+}
+
+li {
+    display: inline-block;
+    font-size: 1.5rem;
+    margin: 0 10px;
+    padding: 5px;
+    background-color: #cecece;
+    border-radius: 3px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.how-will-it-your-travel-group {
+    display: none;
+}
+
+.main-content {
+    width: 60vw;
+    text-align: left;
+}
+
+.calculator-button {
+    display: inline-block;
+    padding: 30px 50px;
+}
+
+.payment {
+    line-height: 25px;
+    width: 100px;
+    height: 100px;
+    background-color: #cecece;
+    position: absolute;
+    padding: 10px;
+    top: 50vh;
+    left: 60vw;
 }

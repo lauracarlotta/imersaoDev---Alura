@@ -7,24 +7,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="https://img.icons8.com/emoji/344/portugal-emoji.png" type="image/x-icon">
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/mobile/mobile.css">
+    <link rel="stylesheet" href="css/style-tablet-desktop.css">
     <title>Viaje Bem</title>
 </head>
 
 <body>
 
-    <header class="main-header">
-        <div>Viaje Conosco</div>
-        <div class="main-menu">
+    <header>
+        
+        <div class="main-header container">
+            <div><h1>Viaje Conosco</h1></div>
             <nav>
-                <div class="container">
+                <div class="">
                     <ul>
                         <a href="#"><li class="who-are-we">Quem Somos</li></a>
                         <a href="#"><li class="how-will-it-your-travel-group">Como será a sua viagem?</li></a>
-                        <a href="#"><li class="how-will-it-your-travel">Estudante</li></a>
-                        <a href="#"><li class="how-will-it-your-travel">Casal</li></a>
-                        <a href="#"><li class="how-will-it-your-travel">Casal c/ Filhos</li></a>
+                        <ul>
+                            <a href="#"><li class="how-will-it-your-travel">Estudante</li></a>
+                            <a href="#"><li class="how-will-it-your-travel">Casal</li></a>
+                            <a href="#"><li class="how-will-it-your-travel">Casal c/ Filhos</li></a>
+                        </ul>
                         <a href="#"><li class="blog">Blog</li></a>
                     </ul>
                 </div>
@@ -32,37 +35,49 @@
         </div>
     </header>
 
-    <div class="container main-content">
-
-        <div>
-            <div class="calculator-button">Aluguel</div><button>+</button>
-        </div>
-
-        <div>
-            <div class="calculator-button">água</div><button>+</button>
-        </div>
-
-        <div>
-            <div class="calculator-button">Energia</div><button>+</button>
-        </div>
-
-        <div>
-            <div class="calculator-button">Transporte</div><button>+</button>
-        </div>
-
-        <div>
-            <div class="calculator-button">alimentação</div><button>+</button>
-        </div>
+    <div class="main">
+        <div class="container main-content">
+            <div>
+                <div class="calculator-button">Hospedagem</div><button>+</button>
+            </div>
+            <div>
+                <div class="calculator-button">Alimentação</div><button>+</button>
+                <div>
+                    <div class="calculator-button">Café da manhã</div><button>+</button>
+                    <div class="calculator-button">Almoço e Jantar</div><button>+</button>
+                </div>
+            </div>
+            <div>
+                <div class="calculator-button">Aluguel de Carro</div><button>+</button>
+                <div>
+                    <div class="calculator-button">Familia</div><button>+</button>
+                    <div class="calculator-button">Familia 5+</div><button>+</button>
+                </div>
+            </div>
+            <div>
+                <div class="calculator-button">Passeios</div><button>+</button>
+                <div>
+                    <div class="calculator-button">Ponto Turístico 1</div><button>+</button>
+                    <div class="calculator-button">Ponto Turístico 2</div><button>+</button>
+                    <div class="calculator-button">Ponto Turístico 3</div><button>+</button>
+                </div>
+            </div>
         
+        
+        </div>
+
+        <div class="payment">Veja o valor total aqui</div>
+
     </div>
 
-    <div class="payment">Veja o valor total aqui</div>
-
     <footer>
-        <div class="footer"></div>
+
+        <div class="container footer "></div>
+
     </footer>
 
-    <script src="index.js"></script>    
+    <script src="js/index.js"></script>
+    
 </body>
 
 </html>

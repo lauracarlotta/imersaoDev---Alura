@@ -1,0 +1,30 @@
+/* @media (max-width: 883px) {
+    nav {
+        height: 120px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    li {
+        font-size: 1.2rem;
+    }
+
+    nav {
+        height: 60px;
+    }
+
+    .how-will-it-your-travel-group {
+        display: inline-block;
+    }
+
+    .how-will-it-your-travel {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+    .who-are-we, .blog {
+        display: none;
+    }
+} */
