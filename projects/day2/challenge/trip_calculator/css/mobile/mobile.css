@@ -70,3 +70,11 @@ a {
     top: 50vh;
     left: 60vw;
 }
+
+strong{
+    font-weight: bolder;
+}
+
+.time {
+    text-align: left;
+}
