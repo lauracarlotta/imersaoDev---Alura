@@ -82,3 +82,30 @@ em {
 .time {
     text-align: left;
 }
+
+.banners {
+    width: 70vw;
+    height: 400px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #cdcdcd;
+}
+
+.panel {
+    width: 70vw;
+    
+}
+
+.infos {
+    width: 350px;
+    height: 200px;
+    margin: 20px 30px;
+}
+
+.info1 {
+    float: left;
+}
+
+.info2{
+    float: right;
+}
